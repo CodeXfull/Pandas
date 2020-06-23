@@ -1,4 +1,6 @@
 """
+Usamo iloc quando queremos selecionar dados de linhas e colunas pelo seu valor numérico de índice. Senão usamos loc
+
 Seleção de linhas com iloc 
 
 Saída estoque:

@@ -1,5 +1,3 @@
-
-
 import pandas as pd 
 
 base = pd.read_csv("./access_data/census.csv")
@@ -10,6 +8,7 @@ print(base.education == ' Bachelors') # True/False para o resultado
 
 #Usando o ==
 print(base.loc[base.marital_status == 'Divorced'])
+print(base.loc[base.native_country == ' ?'])
 
 #Usando o &
 print((base.education == " Bachelors") & (base.age >=45))
