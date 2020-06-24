@@ -12,7 +12,17 @@ Saída estoque:
 .loc[índice_coluna, "nome_da_coluna"]
 
 OBS: o iloc usa o índice pra pegar a posição.
-loc pega índice e nome das colunas.
+loc pega índice e nome das colunas, mas pode pegar só pelo índice também.
+
+Selecionar índices específicos de colunas específicas
+df = reviews.loc[[0,1,10,100],["country","province","region_1","region_2"]]
+
+cols = ['country', 'variety']
+df = reviews.loc[:99, cols]
+or
+
+cols_idx = [0, 11]
+df = reviews.iloc[:100, cols_idx]
 """
 import pandas as pd 
 

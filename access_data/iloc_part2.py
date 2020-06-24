@@ -39,6 +39,9 @@ Saída 5º print:
         Frutas  Valor Fornecedor
     3    Abacate    3.0    Mercado
     4  Bergamota    0.6        Lux
+
+Selecionar índices específicos de todas as colunas
+sample_reviews = reviews.iloc[[1,2,3,5,8],:]
 """
 import pandas as pd 
 
