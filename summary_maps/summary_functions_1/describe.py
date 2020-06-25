@@ -1,7 +1,5 @@
 """
 O Pandas fornece muitas "funções de resumo" simples  que reestruturam os dados de alguma maneira útil.
-
-
 """
 import pandas as pd 
 

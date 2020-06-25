@@ -19,3 +19,4 @@ print(countries_reviewed.sort_values(by='len', ascending=False))
 
 # 2 Forma com índice padrão
 print(countries_reviewed.sort_index())
+
